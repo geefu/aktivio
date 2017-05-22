@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Template by PixelsInColors">
+    <meta name="keywords" content="Under Construction, HTML, CSS, JavaScript, PHP,">
+    <meta name="author" content="PixelsInColors">
+    <title>Under Construction Countdown</title>
+
+    <!--  Favicon   -->
+    <link rel="shortcut icon" href="favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="css/wright-style.css">
+
+    <script type="text/javascript" src="js/jquery-1.10.2-min.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/wright-custom.js"></script>
+
+    <script type="text/javascript" src="js/jquery-animate-css-rotate-scale.js"></script>
+
+    <script type="text/javascript" src="js/jquery.countdown.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Rancho' rel='stylesheet' type='text/css'>
+
+    <!--[if gte IE 9]>
+      <style type="text/css">
+        .gradient { filter: none; }
+      </style>
+    <![endif]-->
+
+</head>
+<body>
+
+
+<!--              Set time for countdown                -->
+<script type="text/javascript">
+
+	<!--      Documentation and Setings for countdown       -->
+	<!--       http://keith-wood.name/countdown.html        -->
+	<!--             Change them in custom.js               -->
+	target  = new Date('12/2/2014');     // /////////  Insert Time When Countdown Should Reach to 0
+	
+</script>
+
+
+	<!--  Header  -->
+	<div id="header">
+    	
+        <!--  Company Logo  -->
+        	<a href="#"><img src="img/rocket-logo.png" alt=""/></a>
+        
+	</div> <!--  End Header  -->
+    
+    <!--     Wrapper     -->
+    <div id="wrapper" class="gradient">
+        
+        <!--     Background Elements     -->
+        <div class="skyelement jupiter"></div>
+        <div class="skyelement planet"></div>
+        <div class="skyelement mount"></div>
+        <div class="ccontainer">
+            <div id="clouds">
+                <div class="skyelement cloud1"></div>
+                <div class="skyelement cloud2"></div>
+            </div>
+            <div id="clouds2">
+                <div class="skyelement cloud3"></div>
+                <div class="skyelement cloud4"></div>
+                <div class="skyelement cloud5"></div>
+            </div>
+            <div id="clouds3">
+                <div class="skyelement cloud1"></div>
+                <div class="skyelement cloud2"></div>
+                <div class="skyelement cloud3"></div>
+                <div class="skyelement cloud4"></div>
+                <div class="skyelement cloud5"></div>
+            </div>
+		</div>
+        <div class="skyelement ground"></div>
+        <div class="skyelement mushroom"></div>
+        <div class="skyelement tree"></div>
+        <div class="skyelement rocket"></div>
+        
+        <!--     Content Box      -->
+        <div class="skyelement content">
+        
+        	<!--     Inner Box      -->
+        	<div class="inner">
+            
+                <div class="chain1"></div>
+                <div class="chain2"></div>
+                
+                <!--   Title for Content Box    -->
+                <h1>Before Lounch :</h1>   
+                
+                <!--      Countdown       -->
+                <div id="countdown">
+                    <div id="imageLayout">
+                        <span class="image{d100}"></span> 
+                        <span class="image{d10}"></span> 
+                        <span class="image{d1}"></span> 
+                        <span class="imageDay"></span> 
+                        <span class="imageSpace"></span> 
+                        <span class="image{h10}"></span> 
+                        <span class="image{h1}"></span> 
+                        <span class="imageSep"></span> 
+                        <span class="image{m10}"></span> 
+                        <span class="image{m1}"></span> 
+                        <span class="imageSep"></span> 
+                        <span class="image{s10}"></span> 
+                        <span class="image{s1}"></span> 
+                    </div>
+                </div> <!--     End Countdown       -->
+                
+                <!--     Subscribe Form     -->
+                <div id="contact-area">
+                    <form id="subscribe_email" method="POST" action="sending.php" >
+                        <p>
+                            <input type="text" name="email" id="email" placeholder="Enter your email to subscribe" />
+                        </p>
+                        <input type="submit" name="submit" value="SUBMIT" class="submit-button" />
+                    </form>
+                </div> <!--    End Subscribe Form     -->
+                
+			</div> <!--    End Inner Box      -->
+            
+        </div> <!--    End Content Box      -->
+        
+    </div> <!--    End Wrapper     -->
+    
+    
+    <div id="footer"></div>
+        
+    <!--     Social Container     -->
+    <div class="social social_down">
+    
+        <!--     Social Header     -->
+        <div class="social_header">
+            <span>Social</span>
+            <div id="arrow_indicator" >
+                <img class="down" src="img/arrow_down.png" alt="" />
+                <img class="up" src="img/arrow_up.png" alt="" />
+            </div>
+        </div> <!--    End Social Header     -->
+        
+        <div class="clear"></div> <!--    Clear Floats    -->
+        
+        <!--     Social Icons     -->
+        <div class="social_content">
+            <a href="#" class="social_ico twitter"></a>
+            <a href="#" class="social_ico facebook"></a>
+            <a href="#" class="social_ico tumblr"></a>
+            <a href="#" class="social_ico vimeo"></a>
+            <a href="#" class="social_ico youtube"></a>
+            <a href="#" class="social_ico flickr"></a>
+            <a href="#" class="social_ico deviantart"></a>
+            <a href="#" class="social_ico everynote"></a>
+            <a href="#" class="social_ico google"></a>
+        </div> <!--    End Social Icons     -->
+        
+    </div> <!--    End Social Container     -->
+
+</body>
+</html>
